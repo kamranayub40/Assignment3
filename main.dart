@@ -1,0 +1,168 @@
+import 'dart:collection';
+
+import 'package:flutter/material.dart';
+
+import 'EcomAppUi.dart';
+import 'Ecommercappui3.dart';
+import 'EcommerceUi2.dart';
+import 'Home.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(body: Ecommerce3()
+          // appBar: AppBar(
+          //   title: Center(
+          //     child: Text("Login"),
+          //   ),
+          // ),
+          // body: Center(
+          //   child: Column(
+          //     children: [
+          //       SizedBox(
+          //         height: 20,
+          //       ),
+          //       Container(width: 200, child: TextField()),
+          //       Container(width: 200, child: TextField()),
+          //       SizedBox(
+          //         height: 20,
+          //       ),
+          //       ElevatedButton(onPressed: () {}, child: Text("Login"))
+          //     ],
+          //   ),
+          // )
+          // body: SingleChildScrollView(
+          //   child: Center(
+          //     child: Column(children: [
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       SizedBox(
+          //         height: 30,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //       Container(
+          //         height: 100,
+          //         width: 100,
+          //         color: Colors.pink,
+          //       ),
+          //     ]),
+          //   ),
+          // ),
+          // body: Row(
+          //   // mainAxisAlignment: MainAxisAlignment.spaceAround,
+          //   crossAxisAlignment: CrossAxisAlignment.center,
+          //   children: [
+          //     Text("Frist Row"),
+          //     Text("Frist Row"),
+          //     Text("Frist Row"),
+          //     Text("Frist Row"),
+          //   ],
+          // ),
+          //     body: Column(
+          //   children: [
+          //     Text("1St column"),
+          //     SizedBox(
+          //       height: 10,
+          //     ),
+          //     Text("1St column"),
+          //     SizedBox(
+          //       height: 10,
+          //     ),
+          //     Text("1St column"),
+          //     SizedBox(
+          //       height: 10,
+          //     ),
+          //     Text("1St column"),
+          //     SizedBox(
+          //       height: 10,
+          //     ),
+          //     Text("1St column"),
+          //   ],
+          // )
+          // body: Container(
+          //   height: 100,
+          //   width: 1200,
+          //   color: Colors.purple,
+          //   child: Text("Mobile App in flutter"),
+          // ),
+          ),
+    );
+  }
+}
